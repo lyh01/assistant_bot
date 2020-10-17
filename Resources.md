@@ -4,9 +4,9 @@
 * [Azure Bot Service 4.0 document](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
 )
 
-
+<div>
 [![Sway me](https://sway.office.com/5wpqXe2gWimGh8FK?ref=Link)](https://sway.office.com/5wpqXe2gWimGh8FK?ref=Link)
-
+</div>
 
 
 <!--blank line -->
