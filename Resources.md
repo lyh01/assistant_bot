@@ -5,7 +5,7 @@
 )
 
 
-<a href="https://sway.office.com/5wpqXe2gWimGh8FK?ref=Link" target="_blank"></a>
+<a href="https://sway.office.com/5wpqXe2gWimGh8FK?ref=Link" target="_blank"><img src="https://sway.office.com/5wpqXe2gWimGh8FK?ref=Link" alt="alternative for img" width="240" height="180"></a>
 
 
 
