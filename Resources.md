@@ -4,8 +4,9 @@
 * [Azure Bot Service 4.0 document](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
 )
 
-
+<div class="video-wrapper">
 <a href="https://www.youtube.com/watch?v=SnhzPfLTCgE" target="_blank"><img src="https://sway.office.com/5wpqXe2gWimGh8FK?ref=Link" alt="alternative for img" width="240" height="180"></a>
+</div>
 
 
 
