@@ -10,7 +10,7 @@
   - [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) low-code/no-code
   - [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
   
-* Tools - Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>, and <a href=https://adaptivecards.io/designer/ target=_blank>Adaptive Card Designer</a>
+* Tools - Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>, <a href=https://adaptivecards.io/designer/ target=_blank>Adaptive Card Designer</a>, <a href=luis.ai>LUIS</a>, 
   * [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) - A visual editing canvas for conversation flows and a number of activities:
     * Build bots without the need to write code
     * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
@@ -38,3 +38,10 @@
 * [Bot Framework Composer](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0&tabs=arithmetic#bot-framework-composer) is an open-source UI authoring tool to build bots. Composer uses adatpive expressions to create, calculate, and modify values.
 * [Bot Framework Activity](https://github.com/microsoft/botframework-sdk/blob/master/specs/botframework-activity/botframework-activity.md) - Activity schema is an application-level representation of conversation actions by humans and automated software. The schema includes provision for communicating text, multimedia, non-content actions like typing indicators. Visual interactive cards (Framework Cards, Adatpive Cards) are not defined in Activity.
 * [Language Genseration (.lg file)](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-language-generation?view=azure-bot-service-4.0) - language-agnostic template 
+
+### Bot Builder Tutorial Samples
+A number of bot projects with [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/tutorial/tutorial-introduction) and on [GitHub](https://github.com/microsoft/BotBuilder-Samples/blob/main/README.md)
+* [Weather bot with Composer and Emulator](https://docs.microsoft.com/en-us/composer/tutorial/tutorial-introduction)
+* QnA Maker Knowledge base - knowledge base is a collection of question-answer pairs, stored and indexed by Azure Search as the first ranking layer. Top results from Azure Search are passed through QnA Maker's NLP re-ranking model to produce the final results and confidence score
+* [Python (GitHub)](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/python) - echo bot, multi-turn, adaptive cards, QnA Maker, NLP, ...
+* [Javascript (GitHub)](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs) - echo bot, multi-turn, adaptive cards, QnA Maker, NLP, ...
