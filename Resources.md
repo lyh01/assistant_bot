@@ -18,7 +18,7 @@
   - [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) low-code/no-code
   - [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
   
-* Tools - Two main tools for bot development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a> and Bot Framework Emulator
+* Tools - Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, and <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>
   * Bot Framework Composer - A visual editing canvas for conversation flows and a number of activities:
     * Build bots without the need to write code
     * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
@@ -32,6 +32,7 @@
     * Extend Composer with plugins
     * Publish bots to Azure App Service and Azure Functions
     * Integrate external services such as QnA Maker knowledge base
+  * Bot Framework WebChat
   * Bot Framework Emulator
 #### Bot Framework Concepts
 * Adaptive cards - Open, platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks
