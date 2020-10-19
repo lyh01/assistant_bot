@@ -6,20 +6,12 @@
 * [Adaptive Cards](adaptivecards.io)
 
 
-<div>
-
-<! -- iframe src="https://sway.office.com/s/uaCt77AbIkX7exrh/embed"  --><!-- /iframe -->
-
-</div>
-
-
-
 * Two ways to create bots:
   - [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) low-code/no-code
   - [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
   
 * Tools - Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, and <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>
-  * Bot Framework Composer - A visual editing canvas for conversation flows and a number of activities:
+  * [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) - A visual editing canvas for conversation flows and a number of activities:
     * Build bots without the need to write code
     * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
     * Author and validate language generation templates
@@ -32,10 +24,10 @@
     * Extend Composer with plugins
     * Publish bots to Azure App Service and Azure Functions
     * Integrate external services such as QnA Maker knowledge base
-  * Bot Framework WebChat
-  * Bot Framework Emulator
+  * [Bot Framework WebChat](https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md) -  a highly customizable web-based client chat control for Azure Bot Service that provides the ability for users to interact with your bot directly in a web page
+  * [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator#readme) - a desktop application that allows bot developers to test and debug bots built with the SDK. The emulator can test bots running on local machine or connect to bots running through a tunnel
 #### Bot Framework Concepts
-* Adaptive cards - Open, platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks
+* Adaptive cards - Open, platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks. [Adaptive Card Designer](https://adaptivecards.io/designer/) using [templating](https://docs.microsoft.com/en-us/adaptive-cards/templating/#what-is-adaptive-cards-templating) to separate layout and data
 * [Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)  - (container, [component](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#component-dialogs), [waterfall](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-waterfall-dialogs?view=azure-bot-service-4.0#waterfall-dialogs), [prompt](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-waterfall-dialogs?view=azure-bot-service-4.0#prompts), [adaptive](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#adaptive-dialogs), action, input, [skill](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#skill-dialog), [QnA Maker](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#qna-maker-dialog))
 * [Skill, skill consumer, root bot, ](https://docs.microsoft.com/en-us/azure/bot-service/skills-conceptual?view=azure-bot-service-4.0)
   * Skill is a bot that performs a set of tasks for another bot 
