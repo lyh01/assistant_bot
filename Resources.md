@@ -6,15 +6,11 @@
 * [Adaptive Cards](adaptivecards.io)
 
 
+<div>
 
 <! -- iframe src="https://sway.office.com/s/uaCt77AbIkX7exrh/embed"  --><!-- /iframe -->
 
-
-
-
-
-
-
+</div>
 
 
 
@@ -22,6 +18,21 @@
   - [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) low-code/no-code
   - [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
   
+* Tools - Two main tools for bot development: <a href="https://github.com/lyh01/assistant_bot/edit/main/Resources.md" target="_">Bot Framework Composer</a> and Bot Framework Emulator
+  * Bot Framework Composer - A visual editing canvas for conversation flows and a number of activities:
+    * Build bots without the need to write code
+    * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
+    * Author and validate language generation templates
+    * Author bots in multiple languages
+    * Import and export dialog assets to share with other developers
+    * Build, export, and call a skill
+    * Export and customize runtime (C# | JavaScript Preview)
+    * Create your own custom actions
+    * Host Composer in the cloud
+    * Extend Composer with plugins
+    * Publish bots to Azure App Service and Azure Functions
+    * Integrate external services such as QnA Maker knowledge base
+  * Bot Framework Emulator
 #### Bot Framework Concepts
 * Adaptive cards - Open, platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks
 * [Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)  - (container, [component](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#component-dialogs), [waterfall](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-waterfall-dialogs?view=azure-bot-service-4.0#waterfall-dialogs), [prompt](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-waterfall-dialogs?view=azure-bot-service-4.0#prompts), [adaptive](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#adaptive-dialogs), action, input, [skill](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#skill-dialog), [QnA Maker](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#qna-maker-dialog))
