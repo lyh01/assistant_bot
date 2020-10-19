@@ -18,7 +18,7 @@
   - [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/introduction) low-code/no-code
   - [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
   
-* Tools - Two main tools for bot development: <a href="https://github.com/lyh01/assistant_bot/edit/main/Resources.md" target="_">Bot Framework Composer</a> and Bot Framework Emulator
+* Tools - Two main tools for bot development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_">Bot Framework Composer</a> and Bot Framework Emulator
   * Bot Framework Composer - A visual editing canvas for conversation flows and a number of activities:
     * Build bots without the need to write code
     * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
