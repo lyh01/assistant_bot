@@ -13,7 +13,7 @@
   
 ### Tools
 Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>, <a href="https://adaptivecards.io/designer/" target=_blank>Adaptive Card Designer</a>, <a href="https://luis.ai">LUIS</a> 
-  * **Bot Framework Composer**[(doc)](https://docs.microsoft.com/en-us/composer/introduction) [(desktop)](https://github.com/microsoft/BotFramework-Composer#get-started)[build local docker image](https://github.com/microsoft/BotFramework-Composer#build-composer-locally) - A visual editing canvas for conversation flows and a number of activities:
+  * **Bot Framework Composer**[(doc)](https://docs.microsoft.com/en-us/composer/introduction) [(desktop)](https://github.com/microsoft/BotFramework-Composer#get-started)[(build local docker image)](https://github.com/microsoft/BotFramework-Composer#build-composer-locally) - A visual editing canvas for conversation flows and a number of activities:
     * Build bots without the need to write code
     * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
     * Author and validate language generation templates
@@ -28,7 +28,7 @@ Main tools in Bot Framework for development: <a href="https://docs.microsoft.com
     * Integrate external services such as QnA Maker knowledge base
   * [Bot Framework WebChat](https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md) -  a highly customizable web-based client chat control for Azure Bot Service that provides the ability for users to interact with your bot directly in a web page
   * **Bot Framework Emulator** [(doc)](https://github.com/Microsoft/BotFramework-Emulator/wiki)[(download)](https://github.com/Microsoft/BotFramework-Emulator#download) - a desktop application that allows bot developers to test and debug bots built with the SDK. The emulator can test bots running on local machine or connect to bots running through a tunnel
-  * [Adaptive Card Designer with Templating](https://adaptivecards.io/designer/) - An online UI card designer 
+  * **Adaptive Card Designer with Templating**[portal](https://adaptivecards.io/designer/) - An online UI card designer 
   * **LUIS** [(doc)](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/what-is-luis) [(portal)](https://luis.ai) - Language of understanding. LUIS extracts intents and entities for a subject domain. LUIS is essential to chat, search, and other downstream NLP applications
 #### Bot Framework Concepts
 * Adaptive cards - Open, platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks. [Adaptive Card Designer](https://adaptivecards.io/designer/) using [templating](https://docs.microsoft.com/en-us/adaptive-cards/templating/#what-is-adaptive-cards-templating) to separate layout and data
