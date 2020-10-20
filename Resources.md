@@ -41,7 +41,7 @@ Main tools in Bot Framework for development: <a href="https://docs.microsoft.com
 * [Bot Framework Activity](https://github.com/microsoft/botframework-sdk/blob/master/specs/botframework-activity/botframework-activity.md) - Activity schema is an application-level representation of conversation actions by humans and automated software. The schema includes provision for communicating text, multimedia, non-content actions like typing indicators. Visual interactive cards (Framework Cards, Adatpive Cards) are not defined in Activity.
 * [Language Genseration (.lg file)](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-language-generation?view=azure-bot-service-4.0) - language-agnostic template 
 
-### Bot Builder Tutorial Samples
+### Bot Builder Tutorials
 A number of bot projects with [Bot Framework Composer](https://docs.microsoft.com/en-us/composer/tutorial/tutorial-introduction) and on [GitHub](https://github.com/microsoft/BotBuilder-Samples/blob/main/README.md)
 * [Weather bot with Composer and Emulator](https://docs.microsoft.com/en-us/composer/tutorial/tutorial-introduction)
 * [QnA Maker Knowledge base (create, train, test)](https://www.qnamaker.ai) - Knowledge base is a collection of question-answer pairs, stored and indexed by Azure Search as the first ranking layer. Top results from Azure Search are passed through QnA Maker's NLP re-ranking model to produce the final results and confidence score
