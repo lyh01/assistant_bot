@@ -3,7 +3,6 @@
 * [How bots work](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
 * [Azure Bot Service 4.0 document](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
 )
-* [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
 * [Adaptive Cards](adaptivecards.io)
 * **Bot developement** [End to End workflow](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0#building-a-bot)[](https://docs.microsoft.com/en-us/azure/bot-service/media/bot-service-overview.png?view=azure-bot-service-4.0)
 
@@ -12,7 +11,7 @@
   - [Bot Framework SDK](https://docs.microsoft.com/en-us/azure/bot-service/index-bf-sdk?view=azure-bot-service-4.0)
   
 ### Tools
-Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>, <a href="https://adaptivecards.io/designer/" target=_blank>Adaptive Card Designer</a>, <a href="https://luis.ai">LUIS</a> 
+Main tools in Bot Framework for development: <a href="https://docs.microsoft.com/en-us/composer/introduction" target="_blank">Bot Framework Composer</a>, <a href="https://github.com/microsoft/BotFramework-WebChat/blob/master/README.md" target="_blank">Bot Framework WebChat</a>, <a href="https://github.com/Microsoft/BotFramework-Emulator#readme" target=_blank>Bot Framework Emulator</a>, <a href="https://adaptivecards.io/designer/" target=_blank>Adaptive Card Designer</a>, <a href="https://luis.ai">LUIS</a>. Further information:
   * **Bot Framework Composer**[(doc)](https://docs.microsoft.com/en-us/composer/introduction) [(desktop)](https://github.com/microsoft/BotFramework-Composer#get-started)[(build local docker image)](https://github.com/microsoft/BotFramework-Composer#build-composer-locally) - A visual editing canvas for conversation flows and a number of activities:
     * Build bots without the need to write code
     * Author and publish NLP data such as LUIS models and QnA Maker knowledge base
@@ -33,9 +32,9 @@ Main tools in Bot Framework for development: <a href="https://docs.microsoft.com
 #### Bot Framework Concepts
 * Adaptive cards - Open, platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks. [Adaptive Card Designer](https://adaptivecards.io/designer/) using [templating](https://docs.microsoft.com/en-us/adaptive-cards/templating/#what-is-adaptive-cards-templating) to separate layout and data
 * [Dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)  - (container, [component](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#component-dialogs), [waterfall](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-waterfall-dialogs?view=azure-bot-service-4.0#waterfall-dialogs), [prompt](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-waterfall-dialogs?view=azure-bot-service-4.0#prompts), [adaptive](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#adaptive-dialogs), action, input, [skill](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#skill-dialog), [QnA Maker](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0#qna-maker-dialog))
-* [Skill, skill consumer, root bot, ](https://docs.microsoft.com/en-us/azure/bot-service/skills-conceptual?view=azure-bot-service-4.0)
+* [Skill, skill consumer, root bot](https://docs.microsoft.com/en-us/azure/bot-service/skills-conceptual?view=azure-bot-service-4.0)
   * Skill is a bot that performs a set of tasks for another bot 
-  * A bot can be both a skill and user-facing (consumer/root) bot 
+  * A bot can be both a skill and user-facing bot (consumer/root bot) 
   * Skill consumer can consume bots across language implementation (C#, Python, Javascript)
 * [Adaptive expressions](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0) evaluate outcome of a condition based on runtime info available in memory to the dialog, or the language generation system. The evaluation determines how a bot reacts to user input and other factors that impact bot functionality.
 * [Bot Framework Composer](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-adaptive-expressions?view=azure-bot-service-4.0&tabs=arithmetic#bot-framework-composer) is an open-source UI authoring tool to build bots. Composer uses adatpive expressions to create, calculate, and modify values.
