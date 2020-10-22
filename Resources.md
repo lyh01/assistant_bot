@@ -48,7 +48,7 @@ A number of bot projects with [Bot Framework Composer](https://docs.microsoft.co
 * [Python (GitHub)](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/python) - echo bot, multi-turn, adaptive cards, QnA Maker, NLP, ...
 * [Javascript (GitHub)](https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/javascript_nodejs) - echo bot, multi-turn, adaptive cards, QnA Maker, NLP, ...
 
-<center>### Additional related resources </center>
+### Additional related resources 
 * Airbnb Knowledge Graph
    * [Jan 2019](https://medium.com/airbnb-engineering/contextualizing-airbnb-by-building-knowledge-graph-b7077e268d5a) + [Some insights from Xiaoya Wei (Mar 2019)](https://www.infoq.com/news/2019/03/wei-airbnb-knowledge-graph/)
    * [Sept 2018](https://medium.com/airbnb-engineering/scaling-knowledge-access-and-retrieval-at-airbnb-665b6ba21e95)
