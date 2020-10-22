@@ -50,5 +50,5 @@ A number of bot projects with [Bot Framework Composer](https://docs.microsoft.co
 
 ### <center> Additional related resources </center>
 * Airbnb Knowledge Graph
-   * [Jan 2019](https://medium.com/airbnb-engineering/contextualizing-airbnb-by-building-knowledge-graph-b7077e268d5a)
+   * [Jan 2019](https://medium.com/airbnb-engineering/contextualizing-airbnb-by-building-knowledge-graph-b7077e268d5a) [Some insights from Xiaoya Wei](https://www.infoq.com/news/2019/03/wei-airbnb-knowledge-graph/)
    * [Sept 2018](https://medium.com/airbnb-engineering/scaling-knowledge-access-and-retrieval-at-airbnb-665b6ba21e95)
