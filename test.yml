@@ -3,11 +3,11 @@ SIDs:
     screens: {screen1234, screen2468}
     growth_promo:
       field_name: field_name_1
-        desc: description for field_name_1
-        required: True
-        data_type: char
-        data_len_min: 20
-        data_len_max: 50
+      desc: description for field_name_1
+      required: True
+      data_type: char
+      data_len_min: 20
+      data_len_max: 50
   SID_SetAppointment:
     screens: 
       - screen31415
