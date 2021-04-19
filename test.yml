@@ -1,0 +1,34 @@
+SIDs:   # main SID 
+   SID_SignUp:  # sign up screen
+      screens: {screen1234, screen2468} # set of screens
+      growth_promo:
+         field_name: field_name_1
+            desc: description for field_name_1
+            required: True
+            data_type: char
+            data_len_min: 20
+            data_len_max: 50
+   SID_SetAppointment:  # set appointment screen
+      screens: 
+        - screen31415 # array
+        - screen21718 # array
+      appointment_date:
+         field_name: field_name_1
+            desc: description for field_name_1
+            required: False
+            data_type: date
+            data_len_min: 10  #fixed length
+            data_len_max: 10
+   SID_SetAlarm:  # set alarm screen
+      desc: description for SID_SetAlarm screen
+      screens: {} # empty set, so only screen
+      appointment_date:
+         field_name: field_name_2
+            desc: description for field_name_2
+            required: False
+            data_type: date
+            data_len_min: 10  #fixed length
+            data_len_max: 10
+      
+     
+   
