@@ -5,7 +5,7 @@ SIDs:  # screen names
       -screen2468  # also other screen
     growth_promo:
       field_name: field_name_1
-      desc: description for field_name_1
+      desc: description for field_name_1  # description for field_name_1
       required: True
       data_type: char
       data_len_min: 20
