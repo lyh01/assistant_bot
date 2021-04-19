@@ -1,8 +1,8 @@
 SIDs:  # screen names
   SID_SignUp:  #screen for signup
     screens:
-      -screen1234  # also other screen
-      -screen2468  # also other screen
+      -screen1234
+      -screen2468
     growth_promo:
       field_name: field_name_1
       desc: description for field_name_1  # description for field_name_1
