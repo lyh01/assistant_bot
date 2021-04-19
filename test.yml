@@ -1,6 +1,6 @@
 SIDs:  # screen names
   SID_SignUp:
-    screens: (screen1234, screen2468)
+    screens: (screen1234, screen2468, screen1234)
     growth_promo:
       field_name: field_name_1
       desc: description for field_name_1
